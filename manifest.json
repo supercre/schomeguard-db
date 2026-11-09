@@ -1,0 +1,27 @@
+{
+ "product": "schomeguard-db",
+ "version": "20261109.2",
+ "published": "2026-11-09T09:03:27+00:00",
+ "files": [
+  {
+   "path": "intel/bph.txt",
+   "sha256": "25f379685c905d90e1c92bf748ae24076fb3957e25f6893ea475fa5850c8b3d6",
+   "size": 2429
+  },
+  {
+   "path": "intel/ioc.json",
+   "sha256": "02822b8adb95c1fba3a370f79f819f6d16c8d0adceecf961e0ee281a085e4f70",
+   "size": 3876
+  },
+  {
+   "path": "intel/proxyware.json",
+   "sha256": "9b1b5c05a594b832ecd453d55997a612b709023fe979fb8d831aa4dd419f6dbd",
+   "size": 3232
+  },
+  {
+   "path": "intel/sites.json",
+   "sha256": "6d0d5fe094c8db676dae54784d4fe83dd8f93353b3a4b67c9188c8a9e1fd1da3",
+   "size": 3152
+  }
+ ]
+}

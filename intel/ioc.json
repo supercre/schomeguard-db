@@ -1,0 +1,109 @@
+{
+ "updated": "2026-11-09",
+ "items": [
+  {
+   "type": "domain",
+   "value": "insightjs.com",
+   "family": "infostealer/nikke-k2f",
+   "note": "NIKKE PC 런처 공급망 공격 로더",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "domain",
+   "value": "analytics.insightjs.com",
+   "family": "infostealer/nikke-k2f",
+   "note": "페이로드·C2",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "domain",
+   "value": "insightjs.org",
+   "family": "infostealer/nikke-k2f",
+   "note": "관련 도메인",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "ip",
+   "value": "89.127.233.127",
+   "family": "infostealer/nikke-k2f",
+   "note": "C2",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "ip",
+   "value": "89.126.250.172",
+   "family": "infostealer/nikke-k2f",
+   "note": "구 C2",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "sha256",
+   "value": "cc0ad05bfe85940a6067b3a72c182d3953339129206634141926d5d0b35973ec",
+   "family": "infostealer/nikke-k2f",
+   "note": "insight.bundle (LuaJIT 원격제어 에이전트)",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "sha256",
+   "value": "2f2aac505f486067af6831d6c75ea74df63acb1ed4e4002709c5962c68bd9203",
+   "family": "infostealer/nikke-k2f",
+   "note": "변조 FeedList.feb647c9.js",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "sha256",
+   "value": "3aaafbd612f04501a6fdb0bb8b2f8a87796223e5584ac18ea5eb180feeafb193",
+   "family": "infostealer/nikke-k2f",
+   "note": "변조 vue-bucket.min.js",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "sha256",
+   "value": "9617d04eb82ad804b55115d123fa3954711f44f318c9cf09c9b4857a24cba644",
+   "family": "infostealer/nikke-k2f",
+   "note": "공격자 l.js",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "clsid",
+   "value": "E77CC89B-7401-4C04-8CED-149DB35ADD04",
+   "family": "infostealer/nikke-k2f",
+   "note": "HKCU COM 하이재킹 지속성",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "path_regex",
+   "value": "(?i)\\\\User Data\\\\PlatformExperienceHelper\\\\[0-9a-f]{64}\\\\[^\\\\]+\\.dll$",
+   "family": "infostealer/nikke-k2f",
+   "note": "브라우저 User Data 아래 지속성 DLL (Program Files 아래 정상 platform_experience_helper.exe와 구분)",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "type": "sha256",
+   "value": "51312177a9c81ae610e7b73a8d3330c54c130baf901516351d250357d0c3ff6d",
+   "family": "proxyware/deskrest",
+   "note": "DeskRest 프록시웨어 설치파일",
+   "severity": "high",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "type": "signer",
+   "value": "Beellet UAB",
+   "family": "proxyware/deskrest",
+   "note": "DeskRest 설치파일 서명자",
+   "severity": "medium",
+   "source": "SuperCreative SOC 위협 분석"
+  }
+ ]
+}

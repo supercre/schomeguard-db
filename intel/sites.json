@@ -1,0 +1,78 @@
+{
+ "updated": "2026-11-09",
+ "note": "홈가드가 브라우저 정책으로 차단하는 위험 사이트. 도메인과 하위 도메인이 함께 막힌다.",
+ "sites": [
+  {
+   "domain": "softonic.com",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.kr",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.jp",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.com.br",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.fr",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.de",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.it",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.pl",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "softonic.nl",
+   "category": "끼워팔기 다운로드",
+   "reason": "스폰서 설치파일로 원치 않는 프로그램·프록시웨어를 끼워 배포하는 다운로드 사이트",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "sftcdn.net",
+   "category": "끼워팔기 다운로드",
+   "reason": "Softonic 다운로드 서버(CDN)",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "domain": "insightjs.com",
+   "category": "악성 서버(IOC)",
+   "reason": "NIKKE PC 런처 공급망 공격 로더·C2",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석(GitHub MotherSphere, whykusanagi/nikke_malware)"
+  },
+  {
+   "domain": "insightjs.org",
+   "category": "악성 서버(IOC)",
+   "reason": "NIKKE PC 런처 공급망 공격 관련 도메인",
+   "source": "SuperCreative SOC 위협 분석 · 공개 분석"
+  }
+ ]
+}

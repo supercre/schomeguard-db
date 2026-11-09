@@ -1,0 +1,96 @@
+{
+ "updated": "2026-11-09",
+ "signatures": [
+  {
+   "name": "DeskRest (AppSalt)",
+   "pattern": "deskrest|desk rest|desk-rest|appsalt",
+   "note": "휴식 알림으로 위장, PC를 프록시 출구로 사용",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "name": "Apprunner / EasyAs / Openshield",
+   "pattern": "apprunner|proxypoint|rendernode|browseradapter|easyasvpn|easyasdns|openshield|secureprivacygroup",
+   "note": "PC를 프록시·원격 브라우저로 사용",
+   "source": "SuperCreative SOC 위협 분석"
+  },
+  {
+   "name": "Honeygain",
+   "pattern": "honeygain",
+   "note": "인터넷 회선 공유(대가 지급)",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "EarnApp (Bright Data)",
+   "pattern": "earnapp|brightdata|bright data|luminati|lum_sdk|brd_sdk",
+   "note": "인터넷 회선 공유(Bright Data 프록시망)",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Pawns.app (IPRoyal)",
+   "pattern": "pawns\\.app|pawns-|pawnsapp|iproyal",
+   "note": "인터넷 회선 공유(IPRoyal 프록시망)",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "PacketStream",
+   "pattern": "packetstream",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Peer2Profit",
+   "pattern": "peer2profit",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Repocket",
+   "pattern": "repocket",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Traffmonetizer",
+   "pattern": "traffmonetizer",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "ProxyRack",
+   "pattern": "proxyrack",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Grass",
+   "pattern": "getgrass|wynd network|grass desktop",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Nodepay",
+   "pattern": "nodepay",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Bitping",
+   "pattern": "bitping",
+   "note": "인터넷 회선 공유",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Infatica",
+   "pattern": "infatica",
+   "note": "프록시 SDK",
+   "source": "SOC 선정 — 공개 회선 공유(bandwidth sharing) 서비스·SDK"
+  },
+  {
+   "name": "Softonic 다운로더",
+   "pattern": "softonic",
+   "note": "스폰서 프로그램을 끼워 설치하는 다운로더",
+   "source": "SuperCreative SOC 위협 분석"
+  }
+ ],
+ "sdk_dll_regex": "^(hgsdk|lum_sdk(32|64)?|brd_sdk(32|64)?|infatica[\\w-]*|pawns[\\w-]*sdk[\\w-]*|packetsdk[\\w-]*)\\.dll$"
+}
